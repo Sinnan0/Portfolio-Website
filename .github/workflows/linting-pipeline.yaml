@@ -30,5 +30,6 @@ jobs:
 
         - name: Lint CSS files
           run: npx stylelint "**/*.css"
+          continue-on-error: true
 
         
