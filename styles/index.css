@@ -1,0 +1,109 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: black;
+}
+
+/* Header Navigation */
+header {
+    background-color: #333;
+    padding: 1rem;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+section div h1{
+    color: gray;
+}
+
+section div p{
+    color: gray;
+}
+
+/* Hero Section */
+#hero {
+    background: url('your-image.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+}
+
+#hero .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+#hero .hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+#hero .btn {
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+/* About Preview Section */
+#about-preview {
+    background-color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#about-preview h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#about-preview p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+#about-preview .btn {
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
