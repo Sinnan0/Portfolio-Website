@@ -1,0 +1,46 @@
+/* About Page Styles */
+
+#about {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#about .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#about h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#about p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    line-height: 1.8;
+    color: #555;
+}
+
+#about .btn {
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+#about .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Active Navigation Link */
+header nav ul li a.active {
+    font-weight: bold;
+    border-bottom: 2px solid #007BFF;
+}
